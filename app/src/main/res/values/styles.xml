@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="greyTextStyleNormal">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/grey_text_color_normal</item>
+    </style>
+    <style name="RightPopAnim" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/right_in</item>
+        <item name="android:windowExitAnimation">@anim/right_out</item>
+    </style>
+
+    <style name="RightTopPopAnim" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/right_top_in</item>
+        <item name="android:windowExitAnimation">@anim/right_top_out</item>
+    </style>
+    <style name="popupwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/take_photo_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/take_photo_popup_hide</item>
+    </style>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D13A2D</color>
+    <color name="colorBlue">#169BD5</color>
+    <color name="colorGreen">#7ED321</color>
+    <color name="colorPrimaryDark">#AA4344</color>
+    <color name="colorAccent">#AA4344</color>
+    <color name="colorPrimaryNo">#BBDAFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#F8931D</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="trantracent">#22000000</color>
+    <color name="trantracent_wode">#55000000</color>
+    <color name="deep_transparent">#bb000000</color>
+    <color name="grey_text_color_normal">#8A8A8A</color>
+    <color name="grey_line_bg">#E4E4E4</color>
+    <color name="grey_top_bg">#E1E1E1</color>
+    <color name="original_border_color">#F18459</color>
+    <color name="grey_normal_bg">#F4F8FC</color>
+    <color name="app_line_colors">#cccccc</color>
+    <color name="app_item_press_colors">#b3b3b3</color>
+    <color name="bottom_text_normal_colors">#6B6B6B</color>
+
+    <color name="btn_complete_normal_colors">#169BD5</color>
+    <color name="btn_complete_press_colors">#1296DB</color>
+
+    <color name="gray_1">#7e7d7d</color>
+    <color name="gray_2">#999999</color>
+    <color name="gray_4">#DDDDDD</color>
+    <color name="gray_5">#4A4A4A</color>
+    <color name="gray_3">#f3f3f3</color>
+    <color name="gray_7">#F9FAFB</color>
+    <color name="gray_9">#FCFCFC</color>
+    <color name="gray_dark">#FF404040</color>
+
+    <color name="font_gray">#bfbfbf</color>
+    <color name="font_gray2">#989898</color>
+    <color name="font_gray3">#151515</color>
+    <color name="gray_6">#979797</color>
+    <color name="gray_8">#E6E6E6</color>
+
+    <color name="description_gray">#666666</color>
+    <color name="search_corner_bg">#60BBBABA</color>
+    <!-- 半透明黑色-->
+    <color name="translucent_black">#99323232</color>
+    <color name="main_top_text_gray">#7A797B</color>
+    <color name="red1">#FF2E2E</color>
+    <color name="red2">#DE001F</color>
+    <color name="red3">#F60413</color>
+    <color name="font_red">#FF4545</color>
+    <color name="font_blue">#0076FF</color>
+    <color name="font_black">#333333</color>
+
+
+
+    <color name="btn_green1">#7ED321</color>
+
+
+    <color name="window_background">#EBEBEB</color>
+    <color name="main_gray">#9A9A9A</color>
+
+    <color name="frag_more_name_text">#ff7b7b7b</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="emoji_keyboard_bg_light">#f6f5f5</color>
+
+</resources>
