@@ -3,27 +3,35 @@
 buildscript {
     
     repositories {
+        maven {
+            url  "http://dl.bintray.com/vigidroid/maven"
+        }
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
-
+        classpath 'me.vigi:fat-aar-plugin:0.2.8'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
 
 allprojects {
+    tasks.getByPath(":alice:javadoc").enabled = false
     repositories {
+        maven {
+            url  "http://dl.bintray.com/vigidroid/maven"
+        }
+        maven { url 'https://jitpack.io' }
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
